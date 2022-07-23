@@ -65,7 +65,7 @@ class TestForMybatisApplicationTests {
 
             System.out.println(statusLine.getStatusCode());
             if (statusLine.getStatusCode() != 200) {
-                System.out.println("调用接口失败！");
+                System.out.println("调用接口失败！请稍后再试！");
             }
 
             //获取响应信息
