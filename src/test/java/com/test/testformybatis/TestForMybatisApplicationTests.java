@@ -83,7 +83,7 @@ class TestForMybatisApplicationTests {
         PageHelper.startPage(1, 3);
         List<User> users = userMapper.selectList(null);
         PageInfo<User> userPageInfo = new PageInfo<>(users);
-        System.out.println(userPageInfo);
+        System.out.println("获取到用户信息："+userPageInfo);
         return userPageInfo;
     }
 }
